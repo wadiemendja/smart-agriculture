@@ -1,0 +1,41 @@
+header {
+    margin-top: 60px;
+}
+
+header h6 {
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 20px auto;
+    border: solid 2px lightgray;
+    border-radius: 50%;
+    max-width: 100px;
+    padding: 5px;
+}
+
+.title {
+    padding: 80px;
+    text-align: center;
+}
+
+.get-started button {
+    display: block;
+    margin: 10px auto;
+    width: 500px;
+}
+
+@media only screen and (max-width: 700px) {
+    .title {
+        padding: 10px;
+        margin-top: 80px;
+    }
+    header {
+        margin-top: 10px;
+    }
+    .get-started button {
+        margin: 60px auto;
+        width: 250px;
+    }
+}
