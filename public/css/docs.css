@@ -59,6 +59,13 @@ div.content {
   div.content {
     margin-left: 0;
   }
+  .sidebar h2 {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .content img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 400px) {
